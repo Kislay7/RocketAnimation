@@ -3,7 +3,7 @@ const canvas= document.querySelector('.airpods-scrolling');
 const context = canvas.getContext('2d');
 
 const currentFrame = index => (
-    `E:/Website Works/Rocket animation/Comp 2/img (${index.toString()}).jpg`
+    `img (${index.toString()}).jpg`
 ) 
 
 const frameCount = 306;
