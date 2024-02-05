@@ -27,5 +27,5 @@ window.addEventListener('scroll',()=>{
    const frameIndex = Math.min(frameCount - 1, Math.floor
     (scrollFraction*frameCount));
 
-    requestAnimationFrame( ()=> updateImage(frameIndex + 15))
+    requestAnimationFrame( ()=> updateImage(frameIndex + 30))
 })
