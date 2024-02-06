@@ -6,7 +6,7 @@ const currentFrame = index => (
     `imag (${index.toString()}).jpg`
 ) 
 
-const frameCount = 168;
+const frameCount = 163;
 canvas.height = 1080;
 canvas.width = 1920;
 const img = new Image();
