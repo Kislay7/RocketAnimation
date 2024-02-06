@@ -3,10 +3,10 @@ const canvas= document.querySelector('.airpods-scrolling');
 const context = canvas.getContext('2d');
 
 const currentFrame = index => (
-    `img (${index.toString()}).jpg`
+    `image (${index.toString()}).jpg`
 ) 
 
-const frameCount = 306;
+const frameCount = 163;
 canvas.height = 1080;
 canvas.width = 1920;
 const img = new Image();
@@ -27,5 +27,5 @@ window.addEventListener('scroll',()=>{
    const frameIndex = Math.min(frameCount - 1, Math.floor
     (scrollFraction*frameCount));
 
-    requestAnimationFrame( ()=> updateImage(frameIndex + 30))
+    requestAnimationFrame( ()=> updateImage(frameIndex + 1))
 })
