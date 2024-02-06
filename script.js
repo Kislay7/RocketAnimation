@@ -29,3 +29,10 @@ window.addEventListener('scroll',()=>{
 
     requestAnimationFrame( ()=> updateImage(frameIndex + 1))
 })
+const preloadImages = () => {
+    for (let i = 1; i < frameCount; i++) {
+        const img = new Image();
+        img.src = currentFrame(i);
+    }
+};
+preloadImages();
