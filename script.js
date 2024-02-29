@@ -3,10 +3,10 @@ const canvas= document.querySelector('.airpods-scrolling');
 const context = canvas.getContext('2d');
 
 const currentFrame = index => (
-    `imag (${index.toString()}).webp`
+    `Imagee (${index.toString()}).webp`
 ) 
 
-const frameCount = 163;
+const frameCount = 142;
 canvas.height = 1080;
 canvas.width = 1920;
 const img = new Image();
